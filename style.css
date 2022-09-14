@@ -1,0 +1,44 @@
+body{
+    background: white;
+}
+
+
+table {
+    border-spacing: 6px;
+    font-variant: normal;
+}
+button {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80%;
+    text-indent: 2px;
+    background-color: white;
+    padding: 5px 10px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50%;
+}
+input[type="text" i] {
+    padding: 2px 6px;
+    border-color: blue;
+}
+#equal{
+    color: red;position: relative;
+}
+#plus{
+    color: red;
+}
+#minus{
+    color:red;
+}
+#multiplication{
+    color: red;
+}
+#division{
+    color: red;
+}
+#zero{
+    padding-right:30px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
