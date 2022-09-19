@@ -23,10 +23,10 @@ button {
     border-radius: 50%;
 }
 .calculator_grid{
-background-color:white;
+  background-color:white;
 }
 input[type="text" i] {
-    padding: 7px 7px;
+    padding: 10px 20px;
     border-color:black;
     border-bottom: 10px;
     padding: left 1px;
