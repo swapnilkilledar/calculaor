@@ -6,13 +6,15 @@
     </head>
     <body>
         <h2 style="color:rgb(0, 149, 255)"> *CALCULATOR* </h2>
-              
+        
         <table id="calcu">
-            <td class="btn" colspan="5"><input type="text" id="total" ></td>
+            <div>
+            <td class="btn" colspan="5"><input  type="text" id="total" ></td>
+            </div>
             <tr class="btn">
-                <td><button class="bluebtn"  id="allClear"  onclick="allClear('c')">c</button></td>
-                <td><button class="bluebtn"  id="plus/minus" onclick="calc('x²')" >x²</button></td>
-                <td><button class="bluebtn"  id="percentage"  onclick ="calc('%')"  >%</button></td>
+                <td><button class="redbtn"  id="allClear"   onclick="allClear('c')">c</button></td>
+                <td><button class="redbtn"  id="plus/minus" onclick="calc('x²')" >x²</button></td>
+                <td><button class="redbtn"  id="percentage"  onclick ="calc('%')"  >%</button></td>
                 <td><button  class="redbtn"  id="division"  onclick ="calc('/')" >/</button></td>
                 <td><button  class="redbtn"  id="squareroot"  onclick ="calc('√x')">√x</button></td>
             </tr>
@@ -41,9 +43,9 @@
                 <td colspan="2"><button  class="bluebtn" id="zero" onclick="display(0)">0</button></td>
                 <td><button class="bluebtn" id="point" onclick="display('.')">.</button></td>
                 <td><button class="redbtn" id="equal"  onclick ="result('=')">=</button></td>
-                <td><button class="redbtn" id="equal"  onclick ="calc('1/x')">1/x</button></td>
+                <td><button class="redbtn" id="oneBy"  onclick ="calc('1/x')">1/x</button></td> 
             </tr>
         </table>
-     
+        <div id="history"></div>
     </body>
 </html> 
